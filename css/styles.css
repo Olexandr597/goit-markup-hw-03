@@ -1,25 +1,90 @@
 body{
-    position: relative;
-width: 1440px;
-height: 2590px;
+font-family: 'Roboto', 'Raleway';
 
+}
+.header{
+box-sizing: border-box;
+position: absolute;
+width: 1440px;
+height: 72px;
+left: 0px;
+top: 0px;
+display: flex;
+flex-direction: row;
 background: #FFFFFF;
+border-bottom: 1px solid #E7E9FC;
+
 }
 .button{
-    display: flex;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 16px 32px;
+gap: 10px;
+
+position: absolute;
+width: 169px;
+height: 56px;
+left: 20px;
+top: 20px;
+
+/* IRIS */
+
+background: #4D5AE5;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;    
 }
 
 .photo-block-1{
-background-color: black;
+position: absolute;
+width: 1117px;
+height: 424px;
+left: 156px;
+top: 288px;
+margin-top: 290;
+margin-bottom: 45;
 display: flex;
+
 }
 .photo-block-2{
-background-color: aqua;
+position: absolute;
+width: 1128px;
+height: 420px;
+left: 156px;
+top: 756px;
+margin-top: 685;
+margin-bottom: 45;
 display: flex;
+
 }
 
 .photo-block-3{
-background-color: blanchedalmond;
+position: absolute;
+width: 1128px;
+height: 420px;
+left: 156px;
+top: 756px;
+margin-top: 1150;
+margin-bottom: 45;
 display: flex;
+
+}
+
+
+.text{
+position: absolute;
+width: 1128px;
+height: 104px;
+left: 156px;
+top: 792px;
+}
+.wawd{
+position: absolute;
+width: 1128px;
+height: 412px;
+left: 156px;
+top: 1016px;
+
+
 }
 
