@@ -5,16 +5,21 @@ height: 2590px;
 
 background: #FFFFFF;
 }
+.button{
+    display: flex;
+}
 
 .photo-block-1{
 background-color: black;
-displa
+display: flex;
 }
 .photo-block-2{
 background-color: aqua;
+display: flex;
 }
 
 .photo-block-3{
 background-color: blanchedalmond;
+display: flex;
 }
 
