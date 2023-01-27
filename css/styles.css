@@ -1,9 +1,31 @@
 body{
-    font-family: 'Roboto';
+ font-family: 'Roboto' 'Raleway';
+font-size: 700;
+line-height: normal;
+color: #2E2F42;
+background-color:2E2F42;
+border: 1440;
 }
 p{
-    color: #434455;
+ color: #434455;
+}
+.logo{
+    background-color: #2E2F42;
+}
+.logo-text{
+    color: #FFFFFF;
 }
 .button{
-    cursor: pointer;
+cursor: pointer;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 489px;
+width: 1050px;
+height: 159px;
+flex: none;
+order: 3;
+flex-grow: 0;
+z-index: 3;
 }
