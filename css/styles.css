@@ -1,31 +1,20 @@
 body{
- font-family: 'Roboto' 'Raleway';
-font-size: 700;
-line-height: normal;
-color: #2E2F42;
-background-color:2E2F42;
-border: 1440;
+font-family: 'Roboto' 'Raleway';
+position: relative;
+width: 1440px;
+height: 2590px;
+
+background: #FFFFFF;
 }
-p{
- color: #434455;
+a{
+    color: #434455;
 }
-.logo{
-    background-color: #2E2F42;
-}
-.logo-text{
-    color: #FFFFFF;
+a:hover{
+    color: #404BBF;
 }
 .button{
-cursor: pointer;
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 0px;
-gap: 489px;
-width: 1050px;
-height: 159px;
-flex: none;
-order: 3;
-flex-grow: 0;
-z-index: 3;
+    background: #4D5AE5;
+}
+.button:hover{
+    background: #404BBF;
 }
