@@ -1,5 +1,5 @@
 body{
-font-family: 'Roboto' 'Raleway';
+font-family: 'Roboto','Raleway', sans-serif;
 
 }
 li{
@@ -19,11 +19,11 @@ a:hover{
     background: #404BBF;
 }
 .button{
-    background: #4D5AE5;
-    
+background: #F4F4FD;  
 }
 .button:hover{
     background: #404BBF;
+    color: #FFFFFF;
 
 }
 :root{
@@ -43,8 +43,15 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--text-color-dark);
 }
+.color-web{
+    color: #4D5AE5;
+}
+.color-web:hover{
+ color: #404BBF;}
+
 .head-nav {
-font-family: 'Roboto';
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -53,7 +60,7 @@ color: var(--text-color-dark)
 .navigation {
 }
 .mail {
-font-family: 'Roboto';
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -62,7 +69,7 @@ letter-spacing: 0.02em;
 color: var(--text-color-gray);
 }
 .tel {
-    font-family: 'Roboto';
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -76,7 +83,7 @@ color: var(--text-color-gray);
     background: #2E2F42;
 }
 .logo-text {
-font-family: 'Roboto';
+font-family: 'Roboto', sans-serif;
 font-size: 56px;
 line-height: 1.07;
 text-align: center;
@@ -84,7 +91,7 @@ letter-spacing: 0.02em;
 color: #FFFFFF;
 }
 .logo-button {
-font-family: 'Roboto';
+font-family: 'Roboto',sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -165,8 +172,10 @@ color: var(--text-color-gray);
 .footer{
     background-color: var(--text-color-dark);
 }
-.footer-link {
-    font-weight: 800;
+.webstudio-footer{
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: 800;
 font-size: 18px;
 line-height: 1.16;
 display: flex;
@@ -174,6 +183,7 @@ align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #F4F4FD;
+
 }
 .footer-text {
 font-weight: 400;
@@ -181,4 +191,19 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #E7E9FC;
+}
+
+
+/*-----------------------------------------------------Portfolio-----------------------------------------------*/
+.button {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+color: #4D5AE5;
 }
