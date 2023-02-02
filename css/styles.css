@@ -189,7 +189,7 @@ color: #E7E9FC;
 }
 /*-----------------------------------------------------Portfolio-----------------------------------------------*/
 .button {
-font-family: 'Roboto';
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
