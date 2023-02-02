@@ -46,6 +46,7 @@ color: var(--text-color-dark);
 }
 .color-web{
     color: #4D5AE5;
+    font-family: 'Raleway';
 }
 .color-web:hover{
  color: #404BBF;}
