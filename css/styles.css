@@ -120,8 +120,6 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--text-color-gray);
 }
-/*-----------------------------------------------------section -----------------------------------------------*/
-
 .section {
 }
 .section-title {
@@ -189,8 +187,6 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #E7E9FC;
 }
-
-
 /*-----------------------------------------------------Portfolio-----------------------------------------------*/
 .button {
 font-family: 'Roboto';
