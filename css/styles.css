@@ -31,7 +31,8 @@ background: #F4F4FD;
     --text-color-gray: #434455;
 }
 /*-----------------------------------------------------HERE-----------------------------------------------*/
-.head {background-color: #FFFFFF;
+.head {
+background-color: aqua;
 }
 .webstudio {
 font-family: 'Raleway';
@@ -43,13 +44,36 @@ align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--text-color-dark);
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+position: absolute;
+width: 115px;
+height: 24px;
+left: 156px;
+top: 24px;
 }
 .color-web{
-    color: #4D5AE5;
-    font-family: 'Raleway';
+color: #4D5AE5;
+font-family: 'Raleway';
 }
 .color-web:hover{
- color: #404BBF;}
+ color: #404BBF;
+}
+ .nav{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 40px;
+position: absolute;
+width: 261px;
+height: 24px;
+left: 347px;
+top: 24px;
+ }
 
 .head-nav {
 font-family: 'Roboto', sans-serif;
@@ -59,7 +83,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--text-color-dark)
 }
-.navigation {
+.navigation {}
 }
 .mail {
 font-family: 'Roboto', sans-serif;
