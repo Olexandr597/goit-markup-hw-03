@@ -1,39 +1,50 @@
 body{
 font-family: 'Roboto','Raleway', sans-serif;
+}
 
-}
 li{
-    list-style-type: none;
+list-style-type: none;
 }
+
 a{
-    color: #434455;
-    text-decoration: none;
+color: #434455;
+text-decoration: none;
 } 
+
 a:hover{
-    color: #404BBF;
+color: #404BBF;
 }
+
 .logo-button{
- background: #4D5AE5;
+background: #4D5AE5;
 }
+
 .logo-button:hover{
-    background: #404BBF;
+background: #404BBF;
 }
+
 .button{
 background: #F4F4FD;  
 }
-.button:hover{
-    background: #404BBF;
-    color: #FFFFFF;
 
+.button:hover{
+background: #404BBF;
+color: #FFFFFF;
 }
+
 :root{
     --text-color-dark: #2E2F42;
     --text-color-gray: #434455;
 }
 /*-----------------------------------------------------HERE-----------------------------------------------*/
 .head {
-background-color: aqua;
+width: 1440px;
+height: 72px;
+left: 0px;
+top: 0px;
+
 }
+
 .webstudio {
 font-family: 'Raleway';
 font-weight: 800;
@@ -44,36 +55,16 @@ align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--text-color-dark);
-
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 0px;
-position: absolute;
-width: 115px;
-height: 24px;
-left: 156px;
-top: 24px;
 }
+
 .color-web{
 color: #4D5AE5;
 font-family: 'Raleway';
 }
+
 .color-web:hover{
  color: #404BBF;
 }
- .nav{
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 0px;
-gap: 40px;
-position: absolute;
-width: 261px;
-height: 24px;
-left: 347px;
-top: 24px;
- }
 
 .head-nav {
 font-family: 'Roboto', sans-serif;
@@ -81,10 +72,13 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: var(--text-color-dark)
+color: var(--text-color-dark);
+
 }
-.navigation {}
+
+.navigation {
 }
+
 .mail {
 font-family: 'Roboto', sans-serif;
 font-style: normal;
@@ -92,7 +86,9 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--text-color-gray);
+
 }
+
 .tel {
 font-family: 'Roboto', sans-serif;
 font-style: normal;
@@ -100,12 +96,20 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--text-color-gray);
+
 }
 /*-----------------------------------------------------logo-----------------------------------------------*/
 
 .logo-image {
-    background: #2E2F42;
+background: #2E2F42;
+position: absolute;
+width: 1440px;
+height: 600px;
+left: 0px;
+top: 72px;
+
 }
+
 .logo-text {
 font-family: 'Roboto', sans-serif;
 font-size: 56px;
@@ -114,6 +118,7 @@ text-align: center;
 letter-spacing: 0.02em;
 color: #FFFFFF;
 }
+
 .logo-button {
 font-family: 'Roboto',sans-serif;
 font-weight: 500;
