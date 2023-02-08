@@ -109,8 +109,7 @@ a:hover{
 
 }
 
-.navigation {
-}
+
 
 .mail {
     font-family: 'Roboto', sans-serif;
@@ -210,9 +209,6 @@ a:hover{
 }
 /*-----------------------------------------------------strategy-----------------------------------------------*/
 
-.strategy {
-    
-}
 .strategy-list {
     margin-top: 120px;
     margin-bottom: 120px;
@@ -223,10 +219,7 @@ a:hover{
     height: 104px;
     width: 264px;
 }
-.strategy-item {
 
-    
-}
 .strategy-item-title {
     width: 264px;
     height: 24px;
@@ -250,8 +243,7 @@ a:hover{
     color: #434455;
 }
 
-.section {
-}
+
 .section-title {
     font-size: 36px;
     line-height: 1.11;
