@@ -44,20 +44,27 @@ a:hover{
 }
 /*-----------------------------------------------------HERE-----------------------------------------------*/
 .head {
+
     padding-top: 24px;
     border-bottom: 1px solid #E7E9FC;
     padding-bottom: 24px;
-
     
         
 
 }
+.here{
+    display: flex;
+}
+.nav-here{
+    display: flex;
+}
 .conteiner{
-    width: 1168px;
-    padding-left: 20px;
-    padding-right: 20px;
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+    /* outline: 1px solid red; */
     
 }
 
@@ -66,7 +73,6 @@ a:hover{
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
-    display: flex;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -90,25 +96,19 @@ a:hover{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--text-color-dark);
+    gap: 40px;
+    display: flex;
+    margin-left: 76px;
+
+   
+}
+.navigation{
     display: flex;
     gap: 40px;
-    margin-left: 76px;
+    margin-left: auto;
     
 
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 40px;
-
-    position: absolute;
-    width: 261px;
-    height: 24px;
-    left: 347px;
-    top: 24px;
-
 }
-
 
 
 .mail {
@@ -120,11 +120,7 @@ a:hover{
     color: var(--text-color-gray);
 
      
-    position: absolute;
-    width: 153px;
-    height: 24px;
-    left: 940px;
-    top: 24px;
+    
 
 }
 
@@ -136,26 +132,17 @@ a:hover{
     letter-spacing: 0.02em;
     color: var(--text-color-gray);
 
-    position: absolute;
-    width: 151px;
-    height: 24px;
-    left: 1133px;
-    top: 24px;
-
+    
 
 }
 /*-----------------------------------------------------logo-----------------------------------------------*/
 
 .logo-image {
     background: #2E2F42;
-
-
-}
-.logo-image .conteiner{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    padding-top: 188px;
+    padding-bottom: 188px;
+    display: block;
+    text-align: center;
 
 }
 
@@ -165,19 +152,13 @@ a:hover{
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    
-
-          
+    margin-bottom: 48px;          
     
 }
 .logo-text span{
     display: block;
 }
-.logo-position{
-    padding-top: 188px;
-    margin-bottom: 48px;
-    
-}
+
 
 .logo-button {
     font-family: 'Roboto',sans-serif;
@@ -186,33 +167,20 @@ a:hover{
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
-
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 16px 32px;
-    gap: 10px;
-
-   
+    padding: 16px 32px; 
     background: #4D5AE5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    
       
 
 }
-.button-posotion{
-    padding-bottom: 188px;
-    display: flex;
-    justify-content: center;
 
-}
-/*-----------------------------------------------------strategy-----------------------------------------------*/
-/*-----------------------------------------------------strategy-----------------------------------------------*/
 /*-----------------------------------------------------strategy-----------------------------------------------*/
 
 .strategy-list {
-    margin-top: 120px;
-    margin-bottom: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
     display: flex;
     gap: 24px;
 }
@@ -231,6 +199,7 @@ a:hover{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-bottom: 8px;
 }
 .stategy-item-text {
     width: 264px;
@@ -252,17 +221,19 @@ a:hover{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--text-color-dark);
-    margin-top: 120px;
+    
 }
 .photo {
     display: flex;
     gap: 25px;
     margin-top: 70px;
-    margin-bottom: 120px;
+    padding-bottom: 120px;
 }
 
 .section-2 {
     background: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .team {
     font-size: 36px;
@@ -271,13 +242,12 @@ a:hover{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--text-color-dark);
-    padding-top: 120px;
 }
 .team-list-item {
     display: flex;
     gap: 25px;
     margin-top: 70px;
-    padding-bottom: 120px;
+    
 
 }
 .team-list{
@@ -310,6 +280,8 @@ a:hover{
 
 .footer{
     background-color: var(--text-color-dark);
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .webstudio-footer{
     font-family: 'Raleway';
@@ -322,8 +294,7 @@ a:hover{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #F4F4FD; 
-    padding-top: 100px;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
 }
 .footer-text {
     font-weight: 400;
@@ -333,7 +304,6 @@ a:hover{
     color: #E7E9FC;
     width: 264px;
     height: 72px; 
-    padding-bottom: 100px;
 
 }
 /*-----------------------------------------------------Portfolio-----------------------------------------------*/
@@ -413,5 +383,6 @@ a:hover{
 
 .footer-portfolio{
   background-color: var(--text-color-dark);
-  margin-top: 120px;  
+  padding-top: 100px;
+  padding-bottom: 100px; 
 }
