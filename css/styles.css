@@ -323,12 +323,13 @@ a:hover{
     align-items: flex-start; 
     gap: 24px;
     display: flex;
-    margin-top: 96px;
+    padding-top: 96px;
     margin-bottom: 72px;
     justify-content: center;
 }
 
 .button {
+    font-weight: 500;
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -352,6 +353,7 @@ a:hover{
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    padding-bottom: 120px;
     
 }
 .card-list {
@@ -370,12 +372,11 @@ a:hover{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-bottom: 8px;
     
 }
 .card-item-text {
-    font-family: 'Roboto',sans-serif;
-    font-style: normal;
-    font-weight: 400;
+    
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
