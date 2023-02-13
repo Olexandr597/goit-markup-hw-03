@@ -316,6 +316,10 @@ a:hover{
 }
 /*-----------------------------------------------------Portfolio-----------------------------------------------*/
 
+.section_photo{
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
 
 .portfolio-button {
      
@@ -323,7 +327,6 @@ a:hover{
     align-items: flex-start; 
     gap: 24px;
     display: flex;
-    padding-top: 96px;
     margin-bottom: 72px;
     justify-content: center;
 }
@@ -353,7 +356,7 @@ a:hover{
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    padding-bottom: 120px;
+   
     
 }
 .card-list {
